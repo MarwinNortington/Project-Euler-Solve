@@ -38,7 +38,7 @@ int main()
     // To do that we have to calculate the multiples of both 5 & 3
     
     for(c = 1; c <= 1000; c++){
-        if(c % 3 & c % 5){
+        if(c % 3 || c % 5){
             continue;
             c++;
         }
