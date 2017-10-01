@@ -7,6 +7,9 @@
 
 ***************************************************************************************************/
 
+
+// VERSION: EFFICIENT & EASY-UNDERSTANDING
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
