@@ -26,7 +26,7 @@ int main()
     }
     
     // Then, we calculate the multiples of 5 below 1000
-    for(b = 1; b <= 1000; b++){
+    for(b = 1; b < 1000; b++){
         if(b % 5){
             continue;
             b++;
@@ -37,7 +37,7 @@ int main()
     // Becuse there are numbers that can divide both 5 and 3(eg: 15, 45...), we have to terminate those
     // To do that we have to calculate the multiples of both 5 & 3
     
-    for(c = 1; c <= 1000; c++){
+    for(c = 1; c < 1000; c++){
         if(c % 3 || c % 5){
             continue;
             c++;
